@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F366A911794E83100094697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F366A901794E83100094697 /* UIKit.framework */; };
+		0F366A931794E83100094697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F366A921794E83100094697 /* Foundation.framework */; };
+		0F366A951794E83100094697 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F366A941794E83100094697 /* CoreGraphics.framework */; };
+		0F366A9B1794E83100094697 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F366A991794E83100094697 /* InfoPlist.strings */; };
+		0F366A9D1794E83100094697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F366A9C1794E83100094697 /* main.m */; };
+		0F366AA11794E83100094697 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F366AA01794E83100094697 /* AppDelegate.m */; };
+		0F366AA31794E83100094697 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F366AA21794E83100094697 /* Default.png */; };
+		0F366AA51794E83100094697 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F366AA41794E83100094697 /* Default@2x.png */; };
+		0F366AA71794E83100094697 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F366AA61794E83100094697 /* Default-568h@2x.png */; };
+		0F366AAA1794E83100094697 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F366AA91794E83100094697 /* ViewController.m */; };
+		0F366AAD1794E83100094697 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F366AAB1794E83100094697 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F366A8D1794E83100094697 /* wifengnews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wifengnews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F366A901794E83100094697 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F366A921794E83100094697 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F366A941794E83100094697 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F366A981794E83100094697 /* wifengnews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wifengnews-Info.plist"; sourceTree = "<group>"; };
+		0F366A9A1794E83100094697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F366A9C1794E83100094697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F366A9E1794E83100094697 /* wifengnews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wifengnews-Prefix.pch"; sourceTree = "<group>"; };
+		0F366A9F1794E83100094697 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F366AA01794E83100094697 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F366AA21794E83100094697 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0F366AA41794E83100094697 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0F366AA61794E83100094697 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0F366AA81794E83100094697 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F366AA91794E83100094697 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F366AAC1794E83100094697 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F366A8A1794E83100094697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F366A911794E83100094697 /* UIKit.framework in Frameworks */,
+				0F366A931794E83100094697 /* Foundation.framework in Frameworks */,
+				0F366A951794E83100094697 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F366A841794E83100094697 = {
+			isa = PBXGroup;
+			children = (
+				0F366A961794E83100094697 /* wifengnews */,
+				0F366A8F1794E83100094697 /* Frameworks */,
+				0F366A8E1794E83100094697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F366A8E1794E83100094697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F366A8D1794E83100094697 /* wifengnews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F366A8F1794E83100094697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F366A901794E83100094697 /* UIKit.framework */,
+				0F366A921794E83100094697 /* Foundation.framework */,
+				0F366A941794E83100094697 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F366A961794E83100094697 /* wifengnews */ = {
+			isa = PBXGroup;
+			children = (
+				0F366A9F1794E83100094697 /* AppDelegate.h */,
+				0F366AA01794E83100094697 /* AppDelegate.m */,
+				0F366AA81794E83100094697 /* ViewController.h */,
+				0F366AA91794E83100094697 /* ViewController.m */,
+				0F366AAB1794E83100094697 /* ViewController.xib */,
+				0F366A971794E83100094697 /* Supporting Files */,
+			);
+			path = wifengnews;
+			sourceTree = "<group>";
+		};
+		0F366A971794E83100094697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F366A981794E83100094697 /* wifengnews-Info.plist */,
+				0F366A991794E83100094697 /* InfoPlist.strings */,
+				0F366A9C1794E83100094697 /* main.m */,
+				0F366A9E1794E83100094697 /* wifengnews-Prefix.pch */,
+				0F366AA21794E83100094697 /* Default.png */,
+				0F366AA41794E83100094697 /* Default@2x.png */,
+				0F366AA61794E83100094697 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F366A8C1794E83100094697 /* wifengnews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F366AB01794E83100094697 /* Build configuration list for PBXNativeTarget "wifengnews" */;
+			buildPhases = (
+				0F366A891794E83100094697 /* Sources */,
+				0F366A8A1794E83100094697 /* Frameworks */,
+				0F366A8B1794E83100094697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wifengnews;
+			productName = wifengnews;
+			productReference = 0F366A8D1794E83100094697 /* wifengnews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F366A851794E83100094697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ibokan;
+			};
+			buildConfigurationList = 0F366A881794E83100094697 /* Build configuration list for PBXProject "wifengnews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F366A841794E83100094697;
+			productRefGroup = 0F366A8E1794E83100094697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F366A8C1794E83100094697 /* wifengnews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F366A8B1794E83100094697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F366A9B1794E83100094697 /* InfoPlist.strings in Resources */,
+				0F366AA31794E83100094697 /* Default.png in Resources */,
+				0F366AA51794E83100094697 /* Default@2x.png in Resources */,
+				0F366AA71794E83100094697 /* Default-568h@2x.png in Resources */,
+				0F366AAD1794E83100094697 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F366A891794E83100094697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F366A9D1794E83100094697 /* main.m in Sources */,
+				0F366AA11794E83100094697 /* AppDelegate.m in Sources */,
+				0F366AAA1794E83100094697 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F366A991794E83100094697 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F366A9A1794E83100094697 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F366AAB1794E83100094697 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F366AAC1794E83100094697 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F366AAE1794E83100094697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F366AAF1794E83100094697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F366AB11794E83100094697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wifengnews/wifengnews-Prefix.pch";
+				INFOPLIST_FILE = "wifengnews/wifengnews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F366AB21794E83100094697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wifengnews/wifengnews-Prefix.pch";
+				INFOPLIST_FILE = "wifengnews/wifengnews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F366A881794E83100094697 /* Build configuration list for PBXProject "wifengnews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F366AAE1794E83100094697 /* Debug */,
+				0F366AAF1794E83100094697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F366AB01794E83100094697 /* Build configuration list for PBXNativeTarget "wifengnews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F366AB11794E83100094697 /* Debug */,
+				0F366AB21794E83100094697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F366A851794E83100094697 /* Project object */;
+}
